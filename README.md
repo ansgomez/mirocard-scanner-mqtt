@@ -8,6 +8,7 @@ This repository contains simple Node.js scripts to forward MiroCard beacons to a
 * [Node.js](https://nodejs.org/en/) 6 +
 * [@abandonware/noble](https://github.com/abandonware/noble)
 * [@ansgomez/node-beacon-scanner](https://github.com/ansgomez/node-beacon-scanner)
+* [MQTT.js](https://github.com/mqttjs/MQTT.js)
 * Any MQTT broker/client
 
 To install, run the following commands:
@@ -17,6 +18,7 @@ $ git clone https://github.com/ansgomez/mirocard-scanner-mqtt.git
 $ cd mirocard-scanner-mqtt
 $ npm install @abandonware/noble
 $ npm install @ansgomez/node-beacon-scanner
+$ npm install mqtt --save 
 ```
 ---------------------------------------
 ## Quick Start
